@@ -7,7 +7,7 @@ class Funcionario(Pessoa):
         self.setor = setor
 
     def bater_ponto(self):
-        print(f"{self.nome} acabou de pater ponto")
+        print(f"{self.nome} acabou de bater ponto")
 
     def __str__(self):
         return f"O(A) funcionário(A) {self.nome}, tem {self.idade} anos, trabalha de {self.cargo} no setor do(a) {self.setor}"
